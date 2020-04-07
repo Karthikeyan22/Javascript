@@ -1,0 +1,54 @@
+function dimensions(){
+	Overall length: 3500,
+	Overall width: 1600,
+	Overall height: 1490,
+	Wheelbase: 2360,
+	track width: {
+		front: 1405,
+		rear: 1400,
+	}
+	Minimum turning radius: 4.5,
+	Minimum ground clearance: 170,
+	
+}
+
+function capacities(){
+	seating capacity: 5,
+	fuel tank capacity: 35,
+}
+
+function engine()
+{
+	type: "KB-Series",
+	Number of cylinders: 3,
+	Number of values: 12,
+	Capacity: 998,
+	Bore x stroke: 73.0 x 99.5,
+	Compression ratio: 10.1,
+	Maximum power: 67/6200,
+	Maximum torque: 90/3500,
+	Fuel distribution: "Multipoint Injection"
+}
+function transmission()
+{
+	type: "5-speed MT",
+}
+function chasis()
+{
+	Steering: "Rack & Pinion, Power assisted",
+	Brakes: {
+		Front: "Ventilated discs",
+		Rear: "Drums",
+	}
+	Suspension: {
+		Front: "MacPherson struct & coil spring",
+		Rear: "Isolated trailing  link & coil spring",
+	}
+	Shock absorbers: "Gas filled",
+	Tyre(tubeless): "150/80R 13",
+}
+function weights()
+{
+	kerb weight(min,with full option): "860 - 880",
+	Gross vehicle weight: 1320,
+}
