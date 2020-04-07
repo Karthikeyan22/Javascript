@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/></head>
+<body>
+<script>
+var height = 16;                              
+var name = "Johnson";                    
+var x = {firstName:"John", lastName:"Doe"};
+var pi=3.14;
+
+console.log(typeof(height));
+console.log(typeof(name));
+console.log(typeof(x));
+console.log(typeof(pi));
+</script>
+</body>
+</html>
