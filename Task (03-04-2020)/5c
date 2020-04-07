@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/></head>
+<body>
+<p id="demo"></p>
+<script>
+function sum(a,b)
+{
+var c= a+b;
+return c;
+}
+
+var a=10;
+var b= Math.floor(Math.random())
+console.log(sum(a,b));
+document.getElementById("demo").innerHTML = sum(a,b);
+
+</script>
+</body>
+</html>

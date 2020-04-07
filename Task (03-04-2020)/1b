@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/></head>
+<body>
+<p id="demo"></p>
+<script>
+var library = [ 
+{
+	title : "Javascript",
+	price : 500,
+	readers : [ { name : "Person 1", count : 300	},
+	{name : "Person 2",count : 400}],
+	authorDetails :{
+	name : "Raj",
+	age : 40,
+	}
+},
+{
+	title : "Nodejs",
+	price : 600,
+	readers : [],
+	authorDetails :{
+		name : "Raj",
+		age : 40,
+	}
+}
+]
+
+library.map(item => {item.email="";})
+
+library[0].email="email1@gmail.com";
+library[1].email="email2@gmail.com";
+
+console.log(library);
+
+</script>
+</body>
+</html>

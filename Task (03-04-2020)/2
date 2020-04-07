@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/></head>
+<body>
+<p id="demo"></p>
+<script>
+function randomnumber(m)
+{
+ return Math.floor(Math.random()*m);
+}
+
+var m=10;
+console.log(randomnumber(m));
+document.getElementById("demo").innerHTML = randomnumber(m);
+
+</script>
+</body>
+</html>
